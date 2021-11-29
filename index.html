@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel= "stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login container" >
+
+    <h2 class="header">Welcome</h2>
+  
+  <form class="loginContent animate" action="main.html" onsubmit="return validate();">
+
+    <div>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" id ="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  </form>
+</div>
+
+<script src="form.js"></script>
+
+</body>
+</html>

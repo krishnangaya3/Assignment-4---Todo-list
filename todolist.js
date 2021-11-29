@@ -26,7 +26,7 @@ function ajax() {
                 }
                     
                 cell2.innerHTML = response[i].title;
-                cell3.innerHTML =  '<i class="fa fa-trash" onclick="remove(this);"></i>';
+                cell3.innerHTML =  '<a class="fa fa-trash" onclick="remove(this);"></a>';
             }
 
 

@@ -10,6 +10,11 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+.loginContent {
+    width: 300px;
+    margin: auto;
+}
+
 /* Set a style for all buttons */
 button {
   background-color: #04AA6D;
@@ -46,6 +51,12 @@ img.avatar {
 
 .container {
   padding: 16px;
+  background: url(checklistBG.jpg);
+  height: 87vh;
+}
+
+.login.container {
+  height: 94vh;
 }
 
 span.psw {
@@ -122,10 +133,6 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-
-  .container {
-      background: url(checklistBG.jpg);
-  }
   
   .topnav {
     overflow: hidden;
@@ -164,8 +171,8 @@ body {
     overflow: auto;
   }
 
-  table td {
-    border: 1px solid black;
+  a:hover {
+    cursor:pointer;
   }
 
   .strikeThrough {
